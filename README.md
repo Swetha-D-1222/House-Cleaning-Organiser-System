@@ -1,5 +1,5 @@
 # HouseCleaningOrganiserSystem
-This is a console based project that I have created in Eclipse IDE
+This is a console based project that I have created in Eclipse IDE.
 This project contains 3 classes Admin, Staff and Customer each having different operations to be performed
 I have inherited these classes from a Main class calles User 
 Admin is responsible for maintaining this entire system and can perform operations like 
