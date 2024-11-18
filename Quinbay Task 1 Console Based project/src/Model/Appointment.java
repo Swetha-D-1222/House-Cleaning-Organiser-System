@@ -19,7 +19,6 @@ public class Appointment
 		staff_id = 0;
 	}
 	public Appointment(int appointment_id, String address, String work_status, int customer_id, int staff_id) {
-//		super();
 		this.appointment_id = appointment_id;
 		this.address = address;
 		this.work_status = work_status;
@@ -56,19 +55,22 @@ public class Appointment
 	public void setStaff_id(int staff_id) {
 		this.staff_id = staff_id;
 	}
-	public static int fetchStaff_id(int appointment_id) {
-		// TODO Auto-generated method stub
+	
+	public static int fetchStaff_id(int appointment_id) 
+	{
 		return StaffOperation.fetchStaff_id(appointment_id);
 	}
-	public static Appointment bookAppointment(Appointment appointment) {
-		// TODO Auto-generated method stub
+	
+	public static Appointment bookAppointment(Appointment appointment) 
+	{
 		return CustomerOperation.bookAppointment(appointment);
 	}
+	
 	public static void confirmAppointment(int app_id, String confirm) 
 	{
-		StaffOperation.confirmAppointment(app_id,confirm);
-		
+		StaffOperation.confirmAppointment(app_id,confirm);	
 	}
+	
 	public static void completeAppointment(int app_id, String complete) 
 	{
 		StaffOperation.completeAppointment(app_id,complete);
