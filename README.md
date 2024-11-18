@@ -1,10 +1,11 @@
 # HouseCleaningOrganiserSystem
-#This is a console based project that I have created in Eclipse IDE.
-#This project contains 3 classes Admin, Staff and Customer each having different operations to be performed
-#I have inherited these classes from a Main class calles User 
-#Admin is responsible for maintaining this entire system and can perform operations like 
-      1.Add Staff
-          Admin will collect all the staff details and will store it in the staff table and an email and password for login will be generated for then using their name and aadhaar no for login.        
+This is a console based project that I have created in Eclipse IDE.< br / >
+This project contains 3 classes Admin, Staff and Customer each having different operations to be performed< br / >
+I have inherited these classes from a Main class calles User < br / >
+Admin is responsible for maintaining this entire system and can perform operations like < br / >
+      1.Add Staff< br / >
+          Admin will collect all the staff details and will store it in the staff table and an email and password for login will be generated
+          for then using their name and aadhaar no for login.  < br / >      
       2.Remove Staff
       3.View All Customers
       4.View All Staffs
